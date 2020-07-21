@@ -1,0 +1,594 @@
+@media screen and (min-width: 751px) and (max-width: 1024px) {
+
+    body{
+        width: 100%;
+    }
+      
+    header{
+        width: 100%;
+        height: 24px;
+        margin-top: 0px; 
+    }
+
+    .conteinerIntro{
+        width: 98%;
+        height: 80px;
+        margin-left:1%;
+    }
+    
+.logo{
+    padding-left: 3%;
+   }
+  
+   .logoMisGifos{
+    padding-left: 3%;
+   }
+  
+  .nav{
+    padding-right: 3%;
+  }
+
+/*Section Buscar*/
+
+    .conteinerBusqueda{
+        width: 98%;
+        height: 163px;
+        margin-left:1%;
+      }
+
+    #barra{
+        width: 98%;;
+        height: 99px;
+        margin-left:1%;
+       
+    }
+    #inputBuscar{
+        width: 86%;
+        height: 48px;
+    }      
+      #opBusqueda{
+        margin-left:1%;
+        width: 97%;;
+        height: 140px;
+        
+    }
+    #opBusqueda button{
+        width: 95%;
+        height: 36px;
+        margin-left:2%;
+        
+    }
+    #sugBusqueda {
+        width: 98%;
+        height: 100px;
+        margin-left:2%;
+    }      
+    
+/*Section SUGERIDO*/
+    .sugerido{
+        width: 98%;
+        height: 1050px;
+        margin-left:1%;
+    }
+    .sugeridoTit{
+        width: 98%;
+        height: 32px;
+        margin-left:1%;
+      }
+
+
+    .flexSugerido {
+      grid-template-columns: repeat(2, 1fr);
+      width: 98%;
+      margin-left:1%;
+    }
+
+    .contenidoImg{
+      width: 98%;
+      height: 88%;
+      padding-top: 3px;
+      margin-left: 1%;
+    }
+   
+    .flexSugerido div:nth-child(1) {
+      grid-column: 1 / 3 ;
+      grid-row: 1;
+      
+    }
+    .flexSugerido div:nth-child(3) {
+      grid-column: 1 / 3 ;
+      grid-row: 3;
+    }
+    .tendenciaTit,.busquedaTit,.verMasSugeridoTit,.misGifTit{
+        width: 98%;
+        height: 32px;
+        margin-left:1%;
+    }
+
+    .tendencia,.busqueda,.verMasSugerido,.misGif{
+        width: 98%;
+        height: 975px;
+        margin-left:1%;
+      }
+
+    .gridTendencias,.gridBusquedas,.gridverMasSugeridos,.gridMisGifos {
+        grid-template-columns: repeat(3, 1fr);
+        width: 98%;
+        margin-left:1%;
+      
+      }
+    
+    
+      .gridTendencias div:nth-child(1),.gridBusquedas div:nth-child(1),.gridverMasSugeridos div:nth-child(1),.gridMisGifos div:nth-child(1) {
+        grid-column: 1 / 3 ;
+        grid-row: 1 ; 
+       }
+       .gridTendencias div:nth-child(4),.gridBusquedas div:nth-child(4),.gridverMasSugeridos div:nth-child(4),.gridMisGifos div:nth-child(4) {
+        grid-column: 2 / 4;
+        grid-row: 2;
+      }
+      .gridTendencias div:nth-child(5),.gridBusquedas div:nth-child(5),.gridverMasSugeridos div:nth-child(5),.gridMisGifos div:nth-child(5) {
+        grid-column: 1 / 3 ;
+        grid-row: 3;
+      }
+      
+      .gridTendencias div:nth-child(8),.gridBusquedas div:nth-child(8),.gridverMasSugeridos div:nth-child(8),.gridMisGifos div:nth-child(8) {
+        grid-column: 2 / 4 ;
+        grid-row: 4;
+      }
+      .gridTendencias div:nth-child(9),.gridBusquedas div:nth-child(9),.gridverMasSugeridos div:nth-child(9),.gridMisGifos div:nth-child(9) {
+        grid-column: 1 / 3 ;
+        grid-row: 5;
+      }
+      .gridTendencias div:nth-child(12),.gridBusquedas div:nth-child(12),.gridverMasSugeridos div:nth-child(12),.gridMisGifos div:nth-child(12) {
+        grid-column: 2 / 4 ;
+        grid-row: 6;
+      }
+      .gridTendencias div:nth-child(13),.gridBusquedas div:nth-child(13),.gridverMasSugeridos div:nth-child(13),.gridMisGifos div:nth-child(13) {
+        grid-column: 1 / 3 ;
+        grid-row: 7;
+      }
+      .gridTendencias div:nth-child(16),.gridBusquedas div:nth-child(16),.gridverMasSugeridos div:nth-child(16),.gridMisGifos div:nth-child(16) {
+        grid-column: 2 / 4 ;
+        grid-row: 8;
+      }
+      .gridTendencias div:nth-child(17),.gridBusquedas div:nth-child(17),.gridverMasSugeridos div:nth-child(17),.gridMisGifos div:nth-child(17) {
+        grid-column: 1 / 3 ;
+        grid-row: 9;
+      }
+      .gridTendencias div:nth-child(20),.gridBusquedas div:nth-child(20),.gridverMasSugeridos div:nth-child(20),.gridMisGifos div:nth-child(20) {
+        grid-column: 2 / 4 ;
+        grid-row: 10;
+      }
+      .gridTendencias div:nth-child(21),.gridBusquedas div:nth-child(21),.gridverMasSugeridos div:nth-child(21),.gridMisGifos div:nth-child(21) {
+        grid-column: 1 / 3 ;
+        grid-row: 11;
+      }
+      .gridTendencias div:nth-child(24),.gridBusquedas div:nth-child(24),.gridverMasSugeridos div:nth-child(24),.gridMisGifos div:nth-child(24) {
+        grid-column: 2 / 4 ;
+        grid-row: 12;
+      }
+      .gridTendencias div:nth-child(25),.gridBusquedas div:nth-child(25),.gridverMasSugeridos div:nth-child(25),.gridMisGifos div:nth-child(25) {
+        grid-column: 1 / 3 ;
+        grid-row: 13;
+      }
+      .gridTendencias div:nth-child(28),.gridBusquedas div:nth-child(28),.gridverMasSugeridos div:nth-child(28),.gridMisGifos div:nth-child(28) {
+        grid-column: 2 / 4 ;
+        grid-row: 14;
+      }
+      .gridTendencias div:nth-child(29),.gridBusquedas div:nth-child(29),.gridverMasSugeridos div:nth-child(29),.gridMisGifos div:nth-child(29) {
+        grid-column: 1 / 3 ;
+        grid-row: 15;
+      }
+      .gridTendencias div:nth-child(31),.gridBusquedas div:nth-child(31),.gridverMasSugeridos div:nth-child(31),.gridMisGifos div:nth-child(31) {
+        grid-column: 2 / 4 ;
+        grid-row: 16;
+      }
+
+
+    
+    /*Section record*/
+    .containerWindow {
+        width: 100%;
+        height:450px;
+    }
+    .initialLoadWindow {
+        width: 80%;
+        height: 380px;
+        margin-left: 10%;
+    }
+
+    .containerWindow2-6 {
+        width: 100%;
+        height:650px;
+        justify-content:flex-start;
+    }
+    .loadingWindows {
+        width: 80%;
+        height: 580px;
+        margin-left: 10%;
+    }
+    
+    .captura {
+        margin-left: 75%;
+    }
+    .windowFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+    .repetir,.subir {
+        margin: 5px 5px 5px 5px;
+    }
+
+    .finalLoadWindow {
+        width: 80%;
+        height: 380px;
+        margin-left: 10%;
+    }    
+             
+}  
+  
+
+  
+@media screen and (min-width: 1px) and (max-width: 750px) {
+
+    body{
+        width: 100%;
+    }
+      
+    header{
+        width: 100%;
+        height: 40px;
+        margin-top: 0px; 
+    }
+
+
+    .headerTit{
+        height: 35px;
+    }
+
+    .conteinerIntro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 98%;
+        height: auto;
+        margin-left:1%;
+    }
+    
+    .logo{
+        padding-left: 3%;
+    }
+  
+    .logoMisGifos{
+        padding-left: 3%;
+    }
+  
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 3%;
+        width: 98%;
+        height: auto;
+    }
+    .btnTema1,.btnTema2,.btnCrear,#record{
+        margin-bottom: 10px;
+    }    
+
+/*Section Buscar*/
+
+    .conteinerBusqueda{
+        width: 98%;
+        height: 200px;
+        margin-left:1%;
+      }
+
+    #barra{
+        width: 96%;;
+        height: 130px;
+        margin-left:2%;
+       
+    }
+    #barraBuscar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        height: 100px;
+        margin-top: 12px;
+        margin-left: 15px;
+    }    
+    #inputBuscar{
+        width: 95%;
+        height: 60px;
+        text-indent:5px;
+        font-size: 11px;
+    }
+    #btnBuscar{
+        margin: 13px 12px 12px 10px;
+    }      
+    #opBusqueda{
+        margin-left: 2%;
+        width: 95%;;
+        height: 140px;
+        align-items: center;
+        
+    }
+    #opBusqueda button{
+        width:95%;
+        height: 36px;
+        margin-left:3%;
+        
+    }
+    #sugBusqueda {
+        display: none;
+        flex-direction: column;
+        align-items:flex-start;
+        width: 98%;
+        height: 120px;
+        margin-left:3%;
+    }
+    
+    #sugBusqueda button{
+        margin-bottom: 2px;
+    }    
+    
+/*Section SUGERIDO*/
+    .sugerido{
+        width: 98%;
+        height: 500px;
+        margin-left:1%;
+    }
+    .sugeridoTit{
+        width: 98%;
+        height: 32px;
+        margin-left:1%;
+    }
+    .contenidoBoxTit p{
+        height: 20px;
+        padding-top: 1px;
+        font-size: 12px;
+    }
+      .contenidoBoxTit img{
+        height: 16px;
+    }
+
+    .contenidoImg{
+        width: 98%;
+        height: 179px;
+        padding-top: 3px;
+        margin-left: 1%;
+    }
+    
+
+
+    .flexSugerido {
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 200px;
+      width: 98%;
+      margin-left:1%;
+    }
+   
+    .tendenciaTit,.busquedaTit,.verMasSugeridoTit,.misGifTit{
+        width: 98%;
+        height: auto;
+        margin-left:1%;
+    }
+
+    .tendencia,.busqueda,.verMasSugerido,.misGif{
+        width: 98%;
+        height: 975px;
+        margin-left:1%;
+      }
+
+    .gridTendencias,.gridBusquedas,.gridverMasSugeridos,.gridMisGifos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+        width: 98%;
+        margin-left:1%;
+      
+    }
+    .gridTendencias div:nth-child(1),.gridBusquedas div:nth-child(1),.gridverMasSugeridos div:nth-child(1),.gridMisGifos div:nth-child(1) {
+      grid-column: 1 / 3 ;
+      grid-row: 1 ; 
+     }
+     .gridTendencias div:nth-child(4),.gridBusquedas div:nth-child(4),.gridverMasSugeridos div:nth-child(4),.gridMisGifos div:nth-child(4) {
+      grid-column: 1 / 3;
+      grid-row: 3;
+    }
+    .gridTendencias div:nth-child(7),.gridBusquedas div:nth-child(7),.gridverMasSugeridos div:nth-child(7),.gridMisGifos div:nth-child(7) {
+      grid-column: 1 / 3 ;
+      grid-row: 5;
+    }
+    
+    .gridTendencias div:nth-child(10),.gridBusquedas div:nth-child(10),.gridverMasSugeridos div:nth-child(10),.gridMisGifos div:nth-child(10) {
+      grid-column: 1 / 3 ;
+      grid-row: 7;
+    }
+    .gridTendencias div:nth-child(13),.gridBusquedas div:nth-child(13),.gridverMasSugeridos div:nth-child(13),.gridMisGifos div:nth-child(13) {
+      grid-column: 1 / 3 ;
+      grid-row: 9;
+    }
+    .gridTendencias div:nth-child(16),.gridBusquedas div:nth-child(16),.gridverMasSugeridos div:nth-child(16),.gridMisGifos div:nth-child(16) {
+      grid-column: 1 / 3 ;
+      grid-row: 11;
+    }
+    .gridTendencias div:nth-child(19),.gridBusquedas div:nth-child(19),.gridverMasSugeridos div:nth-child(19),.gridMisGifos div:nth-child(19) {
+      grid-column: 1 / 3 ;
+      grid-row: 13;
+    }
+    .gridTendencias div:nth-child(22),.gridBusquedas div:nth-child(22),.gridverMasSugeridos div:nth-child(22),.gridMisGifos div:nth-child(22) {
+      grid-column: 1 / 3 ;
+      grid-row: 15;
+    }
+    .gridTendencias div:nth-child(25),.gridBusquedas div:nth-child(25),.gridverMasSugeridos div:nth-child(25),.gridMisGifos div:nth-child(25) {
+      grid-column: 1 / 3 ;
+      grid-row: 17;
+    }
+    .gridTendencias div:nth-child(28),.gridBusquedas div:nth-child(28),.gridverMasSugeridos div:nth-child(28),.gridMisGifos div:nth-child(28) {
+      grid-column: 1 / 3 ;
+      grid-row: 19;
+    }
+    .gridTendencias div:nth-child(31),.gridBusquedas div:nth-child(31),.gridverMasSugeridos div:nth-child(31),.gridMisGifos div:nth-child(31) {
+      grid-column: 1 / 3 ;
+      grid-row: 21;
+    }
+    .gridTendencias div:nth-child(34),.gridBusquedas div:nth-child(34),.gridverMasSugeridos div:nth-child(34),.gridMisGifos div:nth-child(34) {
+      grid-column: 1 / 3 ;
+      grid-row: 23;
+    }
+    .gridTendencias div:nth-child(37),.gridBusquedas div:nth-child(37),.gridverMasSugeridos div:nth-child(37),.gridMisGifos div:nth-child(37) {
+      grid-column: 1 / 3 ;
+      grid-row: 25;
+    }
+    .gridTendencias div:nth-child(40),.gridBusquedas div:nth-child(40),.gridverMasSugeridos div:nth-child(40),.gridMisGifos div:nth-child(40) {
+      grid-column: 1 / 3 ;
+      grid-row: 27;
+    }
+    .gridTendencias div:nth-child(43),.gridBusquedas div:nth-child(43),.gridverMasSugeridos div:nth-child(43),.gridMisGifos div:nth-child(43) {
+      grid-column: 1 / 3 ;
+      grid-row: 29;
+    }
+    .gridTendencias div:nth-child(45),.gridBusquedas div:nth-child(45),.gridverMasSugeridos div:nth-child(45),.gridMisGifos div:nth-child(45) {
+      grid-column: 1 / 3 ;
+      grid-row: 31;
+    }
+    /*Section record*/
+    .containerWindow {
+        width: 100%;
+        height:auto;
+        margin-bottom:20px;
+    }
+    .initialLoadWindow {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-bottom:10px;
+    }
+
+    .secondTitle {
+        width: 100%;
+        height: 60px;
+    }
+    .initialLoadWindow p {
+        padding-right: 10px;
+    }
+
+    .containerWindow2-6 {
+        width: 100%;
+        height:auto;
+        justify-content:flex-start;
+        margin-bottom:20px;
+    }
+    .loadingWindows {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .previewContainer2 {
+        height: 190px;
+        margin: 8px 8px 8px 8px;
+    }
+     #isavideo {
+        max-height: 99%;
+    }
+    .previewContainer {
+        height: 190px;
+        margin: 8px 8px 8px 8px;
+    }
+    #imagen {
+        height: 99%;
+        width: 99%;
+        z-index: 999;
+    }
+     #imageness{
+        height: 99%;
+        width: 99%;
+        z-index: 999;
+    }
+    .timerandloader{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:10px;
+    }
+    .recording {
+        align-self: center;
+        margin: 0px 5px 5px 5px;
+    }
+    #time,#time2 {
+        margin: 5px 5px 5px 5px;
+    }
+
+    .captura {
+       margin-left: 50%;
+       margin-bottom:10px;
+
+    }
+    .windowFooter {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom:10px;
+    }
+    .repetir,.subir {
+      width: 130px;
+      margin: 5px 5px 5px 5px;
+    }
+    .progresscontainer {
+      margin: 5px 5px 5px 5px;
+    }
+    .rptuploadbuttons {
+      margin-right: 0px;
+    }
+
+    .emptyContainer {
+      height: 190px;
+      margin: 8px 8px 8px 8px;
+    } 
+    .cancelButton{
+      margin-bottom:10px;
+    }   
+
+    .finalLoadWindow {
+      width: 90%;
+      height: auto;
+      margin-left: 5%;
+    }
+    .imageAndButtons {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .smallPreviewContainer {
+      padding: 0px;
+      margin: 10px 0px 0px 0px;
+      width: 90%;
+      height: 190px;
+    }
+    .smallPreviewContainer img {
+      height: 98%;
+      width: 98%;
+      margin:1%;
+    } 
+    .rightButtons {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: auto;
+      margin: 20px 0px 0px 0px;;
+    } 
+    .readyButton {
+      justify-content: center;
+      padding: 0px;
+      padding-bottom:20px;
+      margin-top:20px;
+    }   
+}  

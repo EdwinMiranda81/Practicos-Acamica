@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gifOS</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/record.css">
+    <link rel="stylesheet" href="./css/darkTheme.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="headerTit">
+            <p>¡Bienvenidos/as a Guifos.com! ------Donde los gifs están.////// Número de visitas: 12.765.803</p>
+        </div>
+    </header>
+    <!--SECCION INTRO-->
+    <section id="intro">
+        <div class="conteinerIntro">
+            <div class="logo">
+                <img id="logoImg" src="./images/gifOF_logo.png" alt="Logo Principal vista normal">
+            </div>
+            <div class="logoMisGifos">
+                <a href="./index.html"><img class="volver" src="./images/arrow.svg" alt="Volver atras"></a>
+                <img id="logoImg2" src="./images/gifOF_logo.png" alt="Logo Principal vista normal">
+            </div>
+            <div class="nav">
+                <a class="btnCrear" href="./record.html">Crear Guifos</a>
+                <div id="tema">
+                    <button class="btnTema1" onclick="funcionDesplegable()">Elegir tema</button>
+                    <button class="btnTema2" onclick="funcionDesplegable()"><img id="imgdrop" src="./images/dropdown.svg" alt="Desplegable elegir tema"></button>
+                    <div id="desplegableTema">
+                        <button id="day" onclick="estiloLight()">Sailor Day</button>
+                        <button id="night" onclick="estiloDark()">Sailor Night</button>
+                    </div>
+                </div>
+                <a id="record" class="misGifs"><span>M</span>is Guifos</a>
+            </div>
+        </div>
+    </section>
+        <!--SECCION BUSCAR-->
+    <section id="busqueda">
+        <div class="conteinerBusqueda">
+            <div id="barra">
+                <div class="barraTit">
+                    <p>Buscar</p>
+                </div>
+                <div id="barraBuscar">    
+                    <input id="inputBuscar" type="text" placeholder="   Busca gifs, hashtags, temas, busca lo que quieras...">
+                    <button id="btnBuscar" class="btnBusqueda" type="submit"><span><img src="./images/lupa_inactive.svg" alt="Lupa">Buscar</span></button>
+                </div>
+            </div>
+            
+            <div id="opBusqueda" class="opcionalesBusqueda">
+                <button id="btn1" value=""></button>
+                <button id="btn2" value=""></button>
+                <button id="btn3" value=""></button>
+            </div>
+        </div>    
+            <div id="sugBusqueda" class="sugerenciaBusqueda">
+                <button id="btn4" value=""></button>
+                <button id="btn5" value=""></button>
+                <button id="btn6" value=""></button>
+            </div>
+    </section>
+    <!--SECCION BUSQUEDA-->
+    <section class="busqueda">
+        <div class="busquedaTit">
+            <p id="busquedaTitle">Resultado Busqueda:</p>
+        </div> 
+        <!-- Aca empieza el grid-->   
+        <div id="gridBusqueda" class="gridBusquedas">
+        </div>
+    </section>
+    
+    <!--SECCION SUGERIDOS-->
+    <section class="sugerido">
+        <div class="sugeridoTit">
+            <p>Hoy te sugerimos:</p>
+        </div>    
+        <div id="gifSugeridos" class="flexSugerido">
+        </div>    
+    </section>
+    <!--SECCION VER MAS SUGERIDOS-->
+    <section class="verMasSugerido">
+        <div class="verMasSugeridoTit">
+            <p id="sugeridoTitle">Resultado ver más sugerido:</p>
+        </div> 
+        <!-- Aca empieza el grid-->   
+        <div id="gridSugerido" class="gridverMasSugeridos">
+        </div>
+    </section>
+    <!--SECCION TENDENCIAS-->
+    <section class="tendencia">
+        <div class="tendenciaTit">
+            <p id="tendenciaTitle">Tendencias:</p>
+        </div> 
+        <!-- Aca empieza el grid-->   
+        <div id="gridTrending" class="gridTendencias">
+        </div>
+    </section>
+    <section class="misGif">
+        <div class="misGifTit">
+            <p id="misGifTitle">Mis Guifos:</p>
+        </div> 
+        <!-- Aca empieza el grid-->   
+        <div id="gridMisGif" class="gridMisGifos">
+            
+        </div>
+    </section>
+
+        <script src="./js/main.js"></script>
+        <script src="./js/theme.js"></script>
+        <script src="./js/funciones.js"></script>
+        <script src="./js/search.js"></script>
+        <script src="./js/sugeridos.js"></script>
+        <script src="./js/trending.js"></script>  
+        <script src="./js/misGifos.js"></script>  
+   
+ 
+</body>
+</html>
