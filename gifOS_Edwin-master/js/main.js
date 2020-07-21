@@ -6,8 +6,6 @@ const apiKey = "NX9EvGsbVgRA9fbaHMNfBjjQq6q2rCcI";
 const search = document.getElementById("inputBuscar");
 let nuevogif = [];
 let divtitle = [];
-var pagina = self.location.href.match( /\/([^/]+)$/ )[1];
-console.log(pagina);
 let nGif = 0;
 
 
