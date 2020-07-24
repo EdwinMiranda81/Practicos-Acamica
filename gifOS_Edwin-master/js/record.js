@@ -25,15 +25,15 @@ let fifth = document.getElementById("window5");
 let sixth = document.getElementById("window6");
 let smallprev = document.getElementById("small");
 
-
+document.querySelector('.misGif').style.display = "block";
 
 document.getElementById("record").addEventListener("click", function () {
- 
-   first.style.display = "none";
+  
+  first.style.display = "none";
 });
 
 document.querySelector(".btnCrear").addEventListener("click", function () {
- 
+  
   first.style.display = "block";
 });
 
