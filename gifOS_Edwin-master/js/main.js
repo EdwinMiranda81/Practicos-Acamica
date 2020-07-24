@@ -16,10 +16,6 @@ let titulo = [];
 
 window.addEventListener("load", function(event) {
 
-document.querySelector('.logoMisGifos').style.display = "none";
-search.addEventListener('input', () => searchStates(search.value));
-document.querySelector(".busqueda").style.display = "none";
-document.querySelector(".verMasSugerido").style.display = "none";
-document.querySelector(".misGif").style.display = "none";
+  search.addEventListener('input', () => searchStates(search.value));
 
 });

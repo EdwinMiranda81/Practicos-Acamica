@@ -25,7 +25,6 @@ let fifth = document.getElementById("window5");
 let sixth = document.getElementById("window6");
 let smallprev = document.getElementById("small");
 
-document.querySelector('.logo').style.display = "none";
 
 
 document.getElementById("record").addEventListener("click", function () {

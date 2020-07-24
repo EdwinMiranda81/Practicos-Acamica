@@ -8,9 +8,12 @@ body{
   background-color: #FFF4FD;
 }
 header{
- width: 1420px;
+ width: 100%;
  height: 24px;
- margin-top: 0px; 
+ margin-top: 0px;
+ margin-left: auto;
+ margin-right: auto;
+
 }
 .headerTit{
   height: 23px;
@@ -30,26 +33,29 @@ header{
 /*Section INTRO*/
 
 .conteinerIntro{
-  width: 1400px;
+  width: 90%;
   height: 115px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  
+  margin-left: auto;
+  margin-right: auto; 
 }
 .logo{
+  display: block;
   width: 120.6px;
   height: 64px;
-  padding-left: 91px;
+  padding-left: 1%;
   flex-direction: row;
   justify-content: flex-end;
  }
 
  .logoMisGifos{
+  display: none;
   width: 120.6px;
   height: 64px;
-  padding-left: 91px;
+  padding-left:1%;
   flex-direction: row;
   justify-content: flex-end;
  }
@@ -60,7 +66,7 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right:  140.5px;
+  padding-right:  1%;
 }
 .nav button{
   background: #F7C9F3;
@@ -169,11 +175,15 @@ header{
 .conteinerBusqueda{
   width: 100%;
   height: 163px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 #barra{
-  width: 1200px;
+  width: 90%;
   height: 99px;
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 3px 3px 3px 3px;
   background: #E6E6E6;
   box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
@@ -199,6 +209,7 @@ header{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   width: 98%;
   height: 48px;
   margin-top: 12px;
@@ -240,19 +251,19 @@ header{
   display: none;
   flex-direction: column;
   justify-content: space-around;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 75px;
-  width: 1207px;
+  padding: 10px 3px 10px 3px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   height: 140px;
   background: #E6E6E6;
   box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
   z-index: 990;
   margin-top: -3px;
-  position: absolute;
+  position: relative;
 }
 #opBusqueda button{
-  width: 1057px;
+  width: 96%;
   height: 36px;
   text-align: left;
   text-indent: 15px;
@@ -279,9 +290,10 @@ header{
 
 
 #sugBusqueda {
+  width: 90%;
   margin-top: -50px;
-  margin-left: 75px;
-  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: flex-start;
   display: none;
 }
@@ -308,17 +320,20 @@ header{
 /*Section SUGERIDO*/
 
 .sugerido{
-  width: 1200px;
+  width: 100%;
   height: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sugeridoTit{
-  width: 1200px;
+  width: 90%;
   height: 32px;
   background: #FFFAFE;
   border: 1px solid #E6BBE2;
   box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .sugeridoTit p{
   display: block;
@@ -336,9 +351,9 @@ header{
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 313px;
   grid-gap: 10px;
-  width: 1200px;
-  margin-left: 75px;
-
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }  
 .contenidoBox{
   width: 100%;
@@ -397,18 +412,21 @@ header{
 }
 
 
-
-
 /*Section todos los GRID*/
-
+.busqueda,.verMasSugerido,.misGif{
+  display: none;
+}
 .tendencia,.busqueda,.verMasSugerido,.misGif{
   width: 100%;
   height: 975px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .tendenciaTit,.busquedaTit,.verMasSugeridoTit,.misGifTit{
-  width: 1200px;
+  width: 90%;
   height: 32px;
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: auto;
   background: #FFFAFE;
   border: 1px solid #E6BBE2;
   box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
@@ -429,11 +447,12 @@ header{
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 298px;
   grid-gap: 10px;
-  width: 1200px;
-  margin-left: 75px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 2700px) {
 
   .gridTendencias,.gridBusquedas,.gridverMasSugeridos,.gridMisGifos {
     grid-template-columns: repeat(4, 1fr);
