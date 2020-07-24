@@ -464,20 +464,20 @@
         margin: 8px 8px 8px 8px;
     }
     #isavideo {
-        max-height: 434px;
+        max-height: 500px;
         object-fit: contain;
     }
     .previewContainer {
-        height: 434px;
+        height: auto;
         margin: 8px 8px 8px 8px;
     }
     #imagen {
-      max-height: 434px;
+      max-height: 500px;
       width: 99%;
       z-index: 999;
     }
     #imageness{
-        max-height: 434px;
+        max-height: 500px;
         width: 99%;
         z-index: 999;
     }
@@ -497,8 +497,8 @@
     }
 
     .captura {
-       margin-left: 50%;
-       margin-bottom:10px;
+      margin-left: 50%;
+      margin-bottom:10px;
 
     }
     .windowFooter {
@@ -542,10 +542,10 @@
       padding: 0px;
       margin: 10px 0px 0px 0px;
       width: 90%;
-      height: 190px;
+      height: auto;
     }
     .smallPreviewContainer img {
-      height: 98%;
+      height: 500px;
       width: 98%;
       margin:1%;
     } 
