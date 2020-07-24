@@ -494,7 +494,7 @@
         margin: 8px 8px 8px 8px;
     }
     #isavideo {
-      object-fit: cover;
+      object-fit:contain;
       max-height: 190px;
     }
     .previewContainer {
