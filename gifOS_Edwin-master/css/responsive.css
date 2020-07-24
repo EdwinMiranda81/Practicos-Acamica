@@ -493,8 +493,9 @@
         height: 190px;
         margin: 8px 8px 8px 8px;
     }
-     #isavideo {
-        max-height: 190px;
+    #isavideo {
+      object-fit: cover;
+      max-height: 190px;
     }
     .previewContainer {
         height: 190px;
@@ -505,7 +506,7 @@
         width: 99%;
         z-index: 999;
     }
-     #imageness{
+    #imageness{
         height: 99%;
         width: 99%;
         z-index: 999;
