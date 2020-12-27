@@ -1,1 +1,2 @@
 https://github.com/EdwinMiranda81/Practicos-Acamica/tree/master/ApiDelilahResto-master/ApiDelilahResto-master
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImVyaWthODAiLCJ1c2VyX2lkIjo1LCJpc0FkbWluIjowLCJpYXQiOjE2MDkwNDAwNzF9.w18c64Jb4Ee0zhCzphSUjG7J3-PT0JGsCcdRq3cCUBo
