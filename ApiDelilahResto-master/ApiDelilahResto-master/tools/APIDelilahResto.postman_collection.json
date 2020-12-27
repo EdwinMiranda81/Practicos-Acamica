@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "0976704d-cdce-47fe-883a-1a22a6f40258",
+		"_postman_id": "5cbdb72a-f021-4b5b-ba46-b74eb09d4600",
 		"name": "APIDelilahResto",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -22,7 +22,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"fullName\": \"elsa bazan\",\r\n  \"userName\": \"ebazan\",\r\n  \"password\": \"elsa1234\",\r\n  \"email\": \"ema@hotmail.com\",\r\n  \"phoneNumber\": \"3512358946\",\r\n  \"address\": \"sayago 2891 \" \r\n\r\n}",
+							"raw": "{\r\n  \"fullName\": \"erika samame\",\r\n  \"userName\": \"erika80\",\r\n  \"password\": \"erika1234\",\r\n  \"email\": \"erika_80@hotmail.com\",\r\n  \"phoneNumber\": \"351220377\",\r\n  \"address\": \"colon 1530\" \r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -56,7 +56,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"fullName\": \"emanuel\",\r\n  \"userName\": \"ema92\",\r\n  \"password\": \"123456\",\r\n  \"email\": \"fede_mfr@hotmail.com\",\r\n  \"phoneNumber\": \"3512351484\",\r\n  \"address\": \"sayago 2891 \",\r\n  \"isAdmin\": 1\r\n}",
+							"raw": "{\r\n  \"fullName\": \"edwin miranda\",\r\n  \"userName\": \"edwin81\",\r\n  \"password\": \"123456\",\r\n  \"email\": \"edwin_81@hotmail.com\",\r\n  \"phoneNumber\": \"3518089058\",\r\n  \"address\": \"colon 1530\",\r\n  \"isAdmin\": 1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -93,7 +93,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"userName\": \"ebazan\",\r\n  \"password\": \"elsa1234\"\r\n}",
+							"raw": "{\r\n  \"userName\": \"erika80\",\r\n  \"password\": \"erika1234\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -130,7 +130,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"userName\": \"ema92\",\r\n  \"password\": \"123456\"\r\n}",
+							"raw": "{\r\n  \"userName\": \"edwin81\",\r\n  \"password\": \"123456\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -215,8 +215,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "products",
@@ -366,8 +365,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "orders",
@@ -385,7 +383,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"userName\": 29,\r\n    \"description\": [\r\n        {\r\n            \"product\": 3,\r\n            \"quantity\": 1\r\n        },\r\n\r\n        {\r\n            \"product\": 2,\r\n            \"quantity\": 2\r\n        }\r\n    ],\r\n    \"payType\": \"cash\"\r\n   \r\n}",
+							"raw": "{\r\n    \"userName\": 2,\r\n    \"description\": [\r\n        {\r\n            \"product\": 3,\r\n            \"quantity\": 1\r\n        },\r\n\r\n        {\r\n            \"product\": 2,\r\n            \"quantity\": 2\r\n        }\r\n    ],\r\n    \"payType\": \"cash\"\r\n   \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -466,14 +464,14 @@
 							}
 						],
 						"url": {
-							"raw": "{{URL}}/api/ordersUser/29",
+							"raw": "{{URL}}/api/ordersUser/2",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
 								"ordersUser",
-								"29"
+								"2"
 							]
 						}
 					},
@@ -538,9 +536,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
