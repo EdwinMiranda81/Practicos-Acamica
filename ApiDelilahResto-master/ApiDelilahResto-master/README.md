@@ -13,7 +13,7 @@ Es una API para la gestión de pedidos para cualquier tipo de negocio de comidas
 
 # ////Instructivo de Instalación////
 
---> Descargar el proyecto https://github.com/EstefiPinero/ApiDelilahResto
+--> Descargar el proyecto https://github.com/EdwinMiranda81/Practicos-Acamica/tree/master/ApiDelilahResto-master/ApiDelilahResto-master
 
 --> Desde Visual Studio instalar dependencias ejecutando el comando: ```npm install```
 
