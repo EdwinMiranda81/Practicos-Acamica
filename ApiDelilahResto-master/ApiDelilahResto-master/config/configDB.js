@@ -4,7 +4,7 @@ let mysql = require('mysql');
 let configDB = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Edwin123',
+    password: 'Edwin1234',
     database: 'delilahr',
 });
 
